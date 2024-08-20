@@ -26,7 +26,7 @@ except:
 print('Logged in.\n')
 
 
-r = requests.get('https://raw.githubusercontent.com/danielmiessler/SecLists/master/Passwords/Common-Credentials/four-digit-pin-codes-sorted-by-frequency-withcount.csv').text
+r = requests.get('https://github.com/CocoFoxCoder/roblox-pin-cracker/edit/main/pincracker').text
 pins = [x.split(',')[0] for x in r.splitlines()]
 print('Loaded most common pins.')
 
